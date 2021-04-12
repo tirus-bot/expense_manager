@@ -1,6 +1,6 @@
 # expense_managerr
 
-Mobile App
+
 A simple way to manage one's cash
 Functionality
  -Add Income Stream e.g Salary, Pocket money
