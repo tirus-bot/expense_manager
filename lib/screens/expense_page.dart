@@ -1,4 +1,3 @@
-import 'package:expense_managerr/screens/custom_dialog_box.dart';
 import 'package:flutter/material.dart';
 import 'package:expense_managerr/components/category.dart';
 import 'package:expense_managerr/constants.dart';
@@ -238,7 +237,7 @@ class _ExpensePageState extends State<ExpensePage> {
                           height: 10,
                         ),
                         Text(
-                          'New Budget',
+                          'Add New',
                           style: textNormal,
                         ),
                       ],
@@ -280,18 +279,6 @@ class _ExpensePageState extends State<ExpensePage> {
                   ],
                 ),
               ),
-              SizedBox(
-                height: 13,
-              ),
-              MaterialButton(
-                  shape: StadiumBorder(),
-                  child: Text(
-                    'Budget',
-                    style: TextStyle(
-                        color: Colors.white, fontFamily: 'Prouct Sans'),
-                  ),
-                  color: Colors.green[700],
-                  onPressed: () {}),
               Expanded(
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.end,
